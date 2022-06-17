@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="feed.css" rel="stylesheet" />
+
+<head>
+    <title>Feed Monitoramento</title>
+</head>
+<body>
+
+<header>
+    <div class="center">
+        <div class="logo">
+            <h1><span>SAFETY PLACE</span> <i class="fa-solid fa-gears"></i>
+            </h1>
+        </div>
+
+    </div>
+</header>
+
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Medidor</a>
+    <a href="#">Funcionários</a>
+    <a href="#">Sobre</a>
+    <a href="#">Ajuda</a>
+    <a href="entrar.html">Sair</a>
+</div>
+
+<span class="botao-menu" onclick="openNav()">&#9776;</span>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<div id="temp-container">
+    <h1>Temperatura:</h1>
+    <form action="" class="input1">
+        <h1>30°</h1>
+    </form>  
+</div>
+
+<div class="info">
+    <button>Iniciar</button>
+    <button>Finalizar</button>
+    <button>Alerta</button>
+</div>
+
+
+</body>
+
+</html>

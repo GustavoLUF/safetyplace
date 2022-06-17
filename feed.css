@@ -1,0 +1,139 @@
+/*
+    &#9776;
+*/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+
+body{
+    background-image: url('img/textura.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: rgb(65, 183, 212);
+    padding:15px 0 ;
+    border-bottom:1px solid rgb(200,200,200);
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+}
+
+.center{
+    max-width: 1300px;
+    padding:0 2% ;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.logo{
+    color: white;
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+/*
+    Sidenav
+*/
+.botao-menu{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.botao-menu:hover{
+    color: rgb(65, 183, 212);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-top: 78px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/*-=--==-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=*/
+  
+#temp-container {
+    background-color:rgb(65, 183, 212);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 50px;
+    margin-top: 10vh;
+    border-radius: 20px;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input1 h1{
+    font-size: 60px;
+    color: white;
+}
+
+.info{
+    padding: 10px;
+    padding-left: 43.5%;
+    
+}
+
+.info button{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: groove;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.info :hover{
+    cursor: pointer;
+    color: rgb(65, 192, 171);
+    transition: 0.4s;
+}

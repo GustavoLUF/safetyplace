@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: white;
+    border: none;
+
+}
+
+body{
+    background-image: url('img/textura.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+
+
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color:rgb(44, 150, 144);
+    transition: .5s;
+}
+
+/* Container Login */
+
+#login-container {
+    background-color:rgb(65, 183, 212);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 50px;
+    margin-top: 10vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Forms */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+input {
+    border-bottom: 2px solid rgb(65, 212, 205);
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-bottom: 2px solid rgb(44, 150, 144);
+}
+
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    color:rgb(65, 183, 212);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color:rgb(44, 150, 144);
+    transition: .5s;
+}
+
+#register-container p {
+    margin-bottom: 10px;
+}
+
+#return {
+    margin-top: 20px;
+    text-align: right;
+}
+
+input[type="email"], input[type="password"] {
+    color: black
+}
